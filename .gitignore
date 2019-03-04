@@ -1,0 +1,21 @@
+#
+# IDE Files and Folders
+#
+
+# IntelliJ IDEA
+.idea
+*.iml
+
+#
+# Generated Files and Folders
+#
+
+target
+
+#
+# Database Files and Folders
+#
+
+# Derby
+data
+derby.log
