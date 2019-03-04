@@ -40,4 +40,13 @@ public class Ranking {
     public int getRanking() {
         return this.ranking;
     }
+
+    @Override
+    public String toString() {
+        return String.format("Subject: %s, Observer: %s, Skill: %s, Ranking: %d",
+                subject.getName(),
+                observer.getName(),
+                skill.getName(),
+                ranking);
+    }
 }

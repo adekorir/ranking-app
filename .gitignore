@@ -19,3 +19,6 @@ target
 # Derby
 data
 derby.log
+
+# H2
+*.db
