@@ -11,6 +11,8 @@
         <property name="dialect">org.hibernate.dialect.H2Dialect</property>
         <!-- Echo all executed SQL to stdout -->
         <property name="show_sql">true</property>
+        <!-- include connection pooling -->
+        <property name="c3p0.timeout">10</property>
         <!-- Drop and re-create the database schema on startup -->
         <property name="hbm2ddl.auto">create-drop</property>
         <mapping class="com.adekorir.example.ranking.Person"/>
