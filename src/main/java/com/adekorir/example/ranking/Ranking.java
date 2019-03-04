@@ -1,5 +1,7 @@
 package com.adekorir.example.ranking;
 
+import java.lang.management.CompilationMXBean;
+
 public class Ranking {
 
     private Person subject;
@@ -21,5 +23,21 @@ public class Ranking {
 
     public void setRanking(int ranking) {
         this.ranking = ranking;
+    }
+
+    public Person getSubject() {
+        return this.subject;
+    }
+
+    public Person getObserver() {
+        return this.observer;
+    }
+
+    public Skill getSkill() {
+        return this.skill;
+    }
+
+    public int getRanking() {
+        return this.ranking;
     }
 }

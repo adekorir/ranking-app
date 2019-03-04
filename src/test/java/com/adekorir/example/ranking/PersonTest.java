@@ -22,6 +22,10 @@ public class PersonTest {
         ranking.setRanking(8);
 
         // Just to give a visual verification
-        System.out.printf("Ranking: %s%n", ranking);
+        System.out.printf("Subject: %s, Observer: %s, Skill: %s, Ranking: %d%n",
+                ranking.getSubject().getName(),
+                ranking.getObserver().getName(),
+                ranking.getSkill().getName(),
+                ranking.getRanking());
     }
 }
